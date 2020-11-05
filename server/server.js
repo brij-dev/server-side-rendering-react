@@ -16,7 +16,7 @@ import { LAUNCH_SUCCESS, LAND_SUCCESS, YEAR } from "../src/constants";
 
 
 // Occupy port
-const PORT = 5000;
+const PORT = 3000;
 
 // Create express instance
 const app = express();
@@ -89,6 +89,6 @@ app.use("^/$", (req, res, next) => {
 app.use(express.static(path.resolve(__dirname, '..', 'build')));
 
 // Occupy and execute on port
-app.listen(process.env.PORT || 5000, () => {
+app.listen(process.env.PORT || 3000, () => {
   console.log(`App launched on ${PORT}`);
 });
