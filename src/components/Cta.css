@@ -1,0 +1,18 @@
+.filter-cta {
+  display: inline-block;
+  background-color: var(--primary-color);
+  padding: 3px 5px;
+  margin: 5px;
+  max-width: 50px;
+  text-align: center;
+  font-weight: 600;
+  border-radius: 3px;
+  font-size: 1.5rem;
+  text-transform: capitalize;
+  cursor: pointer;
+}
+
+.filter-cta.active {
+  background-color: var(--active-primary-color);
+  color: var(--background-color-section);
+}

@@ -1,0 +1,67 @@
+.card-view {
+  width: 100%;
+  background-color: var(--background-color-section);
+  padding: 2rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  position: relative;
+  animation: slideIn 0.2s ease-in-out;
+}
+
+
+.card-view img {
+  max-width: 80%;
+  display: block;
+  margin: 1.5rem auto;
+}
+
+.card-view h4 {
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: var(--card-view-heading-color);
+  margin-bottom: 1rem;
+}
+
+.card-view .heading {
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin: 0.5rem 0;
+}
+
+.card-view .paragraph {
+  font-size: 1.4rem;
+  margin: 0.5rem 0;
+  padding-left: 1rem;
+}
+
+.card-view .misson-id-container ul {
+  margin-left: 2rem;
+}
+
+.card-view .misson-id-container li {
+  font-size: 1.4rem;
+}
+
+.card-view .row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  line-height: 1;
+}
+
+@media screen and (min-width: 700px) {
+  .card {
+    margin: 1rem;
+    height: 42rem;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    bottom: -20px;
+  }
+  to {
+    bottom: 0px;
+  }
+}
