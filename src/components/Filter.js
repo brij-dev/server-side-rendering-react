@@ -1,7 +1,7 @@
 import React from "react";
 
 // CONSTANTS
-import { SUCCESSFUL_LANDING, SUCCESSFUL_LAUNCH } from "../../constants";
+import { SUCCESSFUL_LANDING, SUCCESSFUL_LAUNCH } from "../constants";
 
 //CSS
 import './Filter.css';

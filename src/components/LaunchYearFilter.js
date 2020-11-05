@@ -1,13 +1,13 @@
 import React from 'react'
 
 // CONSTANTS
-import { YEAR_RANGE, YEAR } from "../../constants";
+import { YEAR_RANGE, YEAR } from "../constants";
 
 // CSS
 import "./LaunchYearFilter.css";
 
 // COMPONENTS
-import Cta from "../Cta";
+import Cta from "./Cta";
 
 
 export default function LaunchYearFilter() {

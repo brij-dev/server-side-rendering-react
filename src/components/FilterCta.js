@@ -5,13 +5,13 @@ import {
   LAND_SUCCESS,
   LAUNCH_SUCCESS,
   SUCCESSFUL_LANDING
-} from '../../constants';
+} from '../constants';
 
 // CSS
 import "./FilterCta.css";
 
 // COMPONENTS
-import Cta from "../Cta";
+import Cta from "./Cta";
 
 export default function FilterCta({ type }) {
   return (
