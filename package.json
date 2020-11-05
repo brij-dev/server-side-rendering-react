@@ -10,7 +10,8 @@
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
-    "react-test-renderer": "^17.0.1"
+    "react-test-renderer": "^17.0.1",
+    "ignore-styles": "^5.0.1"
   },
   "scripts": {
     "start": "node server/index.js",
