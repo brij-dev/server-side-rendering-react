@@ -11,7 +11,8 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "3.4.3",
     "react-test-renderer": "^17.0.1",
-    "ignore-styles": "^5.0.1"
+    "ignore-styles": "^5.0.1",
+    "@babel/register": "^7.11.5"
   },
   "scripts": {
     "start": "node server/index.js",
@@ -38,7 +39,6 @@
   "devDependencies": {
     "@babel/preset-env": "^7.11.5",
     "@babel/preset-react": "^7.10.4",
-    "@babel/register": "^7.11.5",
     "compression": "^1.7.4",
     "es6-promise": "^4.2.8",
     "express": "^4.17.1",
