@@ -31,6 +31,10 @@ function App({ data, requestParams = {} }) {
   // If server side request
   if (!requestParams.isServer) {
 
+    if (typeof window === 'undefined') {
+        global.window = {}
+    }
+    
     requestData = { ...requestParams, ...window.__PRELOADED_STATE__ }
 
     // update current url from window object
