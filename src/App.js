@@ -10,7 +10,7 @@ import { LAND_SUCCESS, LAUNCH_SUCCESS, YEAR } from './constants';
 import './App.css';
 
 // COMPONENTS
-import Filter from './components/filters/Filter';
+import Filter from './components/Filter';
 import CardView from './components/CardView';
 
 export const getQueryData = location => {
