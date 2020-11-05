@@ -23,9 +23,7 @@
   "scripts": {
     "start": "node server/index.js",
     "build": "react-scripts build",
-    "test": "react-scripts test",
-    "heroku-prebuild": "npm install",
-    "heroku-postbuild": "npm install && npm run build"
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"
