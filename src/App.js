@@ -29,7 +29,7 @@ function App({ data, requestParams = {} }) {
   let requestData = {};
 
   // If server side request
-  if (requestParams.isServer) {
+  if (!requestParams.isServer) {
 
     requestData = { ...requestParams, ...window.__PRELOADED_STATE__ }
 
