@@ -17,15 +17,13 @@
 .launch-year-filter .years-container {
   max-width: 90%;
   margin: 0.6rem auto 0 auto;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: stretch;
   align-items: center;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
 }
 
 .launch-year-filter .filter-cta {
-  flex-grow: 1;
+  justify-self: center;
 }
 
 @media screen and (min-width: 700px) {
